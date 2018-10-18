@@ -6,6 +6,9 @@ namespace Lab07Collections
 {
   public class Card
   {
+    /// <summary>
+    /// constructor method with the defaut properties set
+    /// </summary>
     public Suit Suit { get; set; }
     public Face Value { get; set; }
     public Card(Suit suitValue, Face faceValue)
@@ -13,18 +16,18 @@ namespace Lab07Collections
       Suit = suitValue;
       Value = faceValue;
     }
-
-    public Card()
-    {
-      Random suitNumberGenerator = new Random();
-      Random valueNumberGenerator = new Random();
-    }
-
+    /// <summary>
+    /// describes the card
+    /// </summary>
+    /// <returns></returns>
     public string ShowValue()
     {
       return ($"{Value} of {Suit}");
     }
   }
+  /// <summary>
+  /// enum for the Suit property
+  /// </summary>
   public enum Suit
   {
     Spades,
@@ -32,6 +35,9 @@ namespace Lab07Collections
     Diamonds,
     Hearts
   }
+  /// <summary>
+  /// enum for the value property
+  /// </summary>
   public enum Face
   {
     Ace,

@@ -7,6 +7,10 @@ namespace Lab07Collections
 {
   class Program
   {
+    /// <summary>
+    /// checking that every method in Deck works
+    /// </summary>
+    /// <param name="args"></param>
     static void Main(string[] args)
     {
       new Card(Suit.Hearts, Face.Queen);
