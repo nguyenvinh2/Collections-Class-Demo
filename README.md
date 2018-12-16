@@ -2,7 +2,7 @@
 
 ## Deck of Cards
 
-This is a basic C# Console Application with a Card Class that creates an object with the properties of a playing ard (Suit and Value).
+This is a basic C# Console Application with a Card Class that creates an object with the properties of a playing ard (Suit and Value).c
 
 The Cards can then be added to a custom defined collection class Deck<T> and be enumerated to display the entire card collection in the Deck.
 
